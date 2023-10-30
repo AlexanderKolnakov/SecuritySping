@@ -14,7 +14,6 @@ import javax.servlet.http.HttpServletResponse;
 @RequestMapping("/api/v1/auth")
 public class AuthenticationRestController {
 
-
     @PostMapping("/login")
     public ResponseEntity<?> authenticate(@RequestBody AuthenticationRequestDTO requestDTO) {
         return null;
